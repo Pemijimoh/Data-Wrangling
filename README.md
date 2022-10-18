@@ -1,17 +1,15 @@
 # We Rate Dog 
-### Data Wrangling
+### Data Wrangling Project
 
+ > Data wrangling steps
+  * Gather data
+  * Access data
+  * Clean data
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
+> WeRateDog is a Twitter account comprising of people's ratings about their dogs, humorous comments, and images of the dogs. The data were gathered from three sources, cleaned, and visualized.
 
-
-## Summary of Findings
-
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
-
-
-## Key Insights for Presentation
-
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+* **Gathered Data:** This include the tweet_json file, tweet_archive_enhanced csv file and image_predictions.tsv file.
+* **Access Data:** Accessing the data collected includes checking tideness and quality issues. It can further be broken down into looking for missing data, invalid data, inaccurate data, inconsistent data and structural issues.
+      After assessing the data programmatically and visually to check for the issues listed above, various steps were taken to clean the data, when cleaning is complete, the three data is merged together using tweet id.
